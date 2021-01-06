@@ -6,10 +6,10 @@ from setuptools import setup, find_packages
 
 setup(
 
-	name="example",
+	name="fsdl",
 	version="0.1.0",
 	packages=find_packages(include=[
-		"lab1", "lab1.*"
+		"lab1", "lab1.*", "data"
 		]),
 	# install_requires=[
 	# "PyYAML",
